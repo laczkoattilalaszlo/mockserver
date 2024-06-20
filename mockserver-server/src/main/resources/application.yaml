@@ -1,0 +1,5 @@
+spring.application.name: mockserver-server
+
+server.port: 8080
+
+custom-properties.mockserver-server.port: 8081
