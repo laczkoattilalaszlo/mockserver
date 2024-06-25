@@ -1,3 +1,0 @@
-spring.application.name: mockserver-client
-
-server.port: 8081
