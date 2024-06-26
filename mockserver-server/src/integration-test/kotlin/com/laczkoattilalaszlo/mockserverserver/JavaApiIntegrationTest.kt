@@ -52,7 +52,6 @@ class JavaApiIntegrationTest() {
             HttpRequest
                 .request()
                 .withMethod("POST")
-                .withContentType(MediaType.APPLICATION_JSON)
                 .withPath("/register/register")
                 .withContentType(MediaType.APPLICATION_JSON)
                 .withBody(JsonBody(objectMapper.writeValueAsString( person )))
