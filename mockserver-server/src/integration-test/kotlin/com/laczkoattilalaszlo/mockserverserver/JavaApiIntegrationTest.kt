@@ -68,6 +68,7 @@ class JavaApiIntegrationTest() {
                 val responseBody: String = webTestClient
                     .post()
                     .uri("/person/register")
+                    .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
                     .bodyValue( person )
                     .exchange()
                     .expectStatus().isOk()
